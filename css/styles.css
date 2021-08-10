@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+nav {
+  margin: 0;
+  overflow: hidden;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 200px;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  
+  
+}
+nav ul li a {
+  color: #0a0a0a;
+  display: block;
+  padding:10px 10px;
+  margin: 30px 10px 10px 10px;
+  text-decoration: none;
+  
+}
+nav ul li:first-child {
+  margin-right: auto;
+  margin-left:150px;
+}
+.background{
+    background-image: url(../images/background-layer.png);
+    height:392px;
+    text-align:center;
+    position: relative;
+  
+}
+.content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width:300px;
+    margin-left:-120px;
+    margin-top: -50px;
+    line-height: 2;
+}
+.background p{
+    color:#FFFFFF;
+    font-size: 15px;
+}
+.background p a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.about{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+}
+.about h1{
+    color:#139139;
+}
+
+.card{
+    width:45%;
+    text-align: left;
+    float:left;
+    padding: 20px;
+}
+.card img{
+    width:100%;
+}
+.row_card::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.awards{
+    margin: auto;
+    width:80%;
+}
+.awards h1{
+    color: #139139;
+    text-align: center;
+
+}
+
+.col{
+    float:left;
+    width:23%;
+    padding:10px;
+    text-align: center;
+}
+.col p{
+    font-size: 15px;
+}
+.col img{
+    width: 100%;
+}
+.col hr{
+    width:50%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.contact{
+    margin: auto;
+    width:80%;
+}
+.contact h1{
+    color: #139139;
+    text-align: center;
+}
+.col_contact{
+    float:left;
+    width:40%;
+    padding:10px 40px;
+    text-align: left;
+    margin: 10px;
+}
+.row_contact::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer{
+    background-color: #139139;
+    text-align: center;
+    color:#FFFFFF;
+    padding: 10px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    display: inline;
+    padding: 10px;
+}
+footer ul li i{
+    color: #FFFFFF;
+}
